@@ -19,8 +19,8 @@ def main():
     amount = int(input("hoeveel M&M's? "))
     if amount > 0:
         print(mmDict(amount))
-    elif type(amount):
-        print('Geen getal') 
+    else:
+        print('Er is een probleem!')
         main()
 
 main()
